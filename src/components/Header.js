@@ -12,6 +12,7 @@ const styles = {
         padding: "2rem",
         borderBottom: "5px solid red"
     }
+    
 }
 
 export default function Header(props) {

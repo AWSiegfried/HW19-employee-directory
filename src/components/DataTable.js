@@ -1,29 +1,52 @@
 import React from "react";
 
 export default function DataTable(props) {
+  const styles = {
+      table: {
+          margin: "0 auto",
+      },
+
+      title: {
+          backgroundColor: "rgb(250, 250, 250, .8)",
+          paddingLeft: "5vw",
+          paddingRight: "5vw"
+      },
+
+      data: {
+        marginLeft: "4vw",
+        marginRight: "4vw",
+        textAlign: "center"
+      }
+
+  };
 
   return (
     <div>
-      <table className="table">
+      <table style = {styles.table} className="table">
         <thead>
           <tr>
-            <th scope="col">Image</th>
-            <th scope="col" onClick={props.sortName}>Name</th>
-            <th scope="col">Phone</th>
-            <th scope="col">Email</th>
-            <th scope="col">DOB</th>
+            <th scope="col" style = {styles.title}>Image</th>
+            <th scope="col" style = {styles.title} onClick={props.sortName}>
+              Name
+            </th>
+            <th scope="col" style = {styles.title}>Phone</th>
+            <th scope="col" style = {styles.title}>Email</th>
+            <th scope="col" style = {styles.title}>DOB</th>
           </tr>
         </thead>
         <tbody>
           {props.data.map((row, i) => (
             <tr key={i}>
-              <td scope="row"><img src={row.picture.thumbnail}/></td>
-              <td>{`${row.name.first} ${row.name.last}`}</td>
-              <td>{row.cell}</td>
-              <td>{row.email}</td>
-              <td>{new Date(row.dob.date).toLocaleDateString()}</td>
+              <td style = {styles.data} scope="row">
+                <img src={row.picture.thumbnail} />
+              </td>
+              <td style = {styles.data} >{`${row.name.first} ${row.name.last}`}</td>
+              <td style = {styles.data}>{row.cell}</td>
+              <td style = {styles.data}>{row.email}</td>
+              <td style = {styles.data}>{new Date(row.dob.date).toLocaleDateString()}</td>
             </tr>
           ))}
+          {/* <hr/> */}
         </tbody>
       </table>
     </div>
