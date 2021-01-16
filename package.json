@@ -1,4 +1,5 @@
 {
+  "homepage": "https://AWSiegfried.github.io/HW19-employee-directory",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +14,6 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://github.com/AWSiegfried/HW19-employee-directory",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
