@@ -16,6 +16,8 @@
 
 The purpose of this assignment was to create an employee directory that allows a manager to pull up basic stats of their employees, dynamically filter through the list and sort by ascending or descending order.  To do this I used axios to call the Random User API (it's free and easy to use, so support it here (https://randomuser.me/)).  I made the front-end with React, which breaks down your application into components which you can then plug in anywhere.  If you're new to React and want to try it out, note that styling is also different. Certain Bootstrap elements like carousel will not function properly and things like "class" are now "className".
 
+Live app: https://awsiegfried.github.io/HW19-employee-directory/
+
 
 ## **Installation**
 1. Clone the repo
