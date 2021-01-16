@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.afd7172b.chunk.css",
-    "main.js": "/my-app/static/js/main.fb4a1f89.chunk.js",
-    "main.js.map": "/my-app/static/js/main.fb4a1f89.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.2a42d562.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.2a42d562.js.map",
-    "static/js/2.a3b97f16.chunk.js": "/my-app/static/js/2.a3b97f16.chunk.js",
-    "static/js/2.a3b97f16.chunk.js.map": "/my-app/static/js/2.a3b97f16.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.afd7172b.chunk.css.map": "/my-app/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.a3b97f16.chunk.js.LICENSE.txt": "/my-app/static/js/2.a3b97f16.chunk.js.LICENSE.txt"
+    "main.css": "/HW19-employee-directory/static/css/main.afd7172b.chunk.css",
+    "main.js": "/HW19-employee-directory/static/js/main.fb4a1f89.chunk.js",
+    "main.js.map": "/HW19-employee-directory/static/js/main.fb4a1f89.chunk.js.map",
+    "runtime-main.js": "/HW19-employee-directory/static/js/runtime-main.b7e5a4b6.js",
+    "runtime-main.js.map": "/HW19-employee-directory/static/js/runtime-main.b7e5a4b6.js.map",
+    "static/js/2.a3b97f16.chunk.js": "/HW19-employee-directory/static/js/2.a3b97f16.chunk.js",
+    "static/js/2.a3b97f16.chunk.js.map": "/HW19-employee-directory/static/js/2.a3b97f16.chunk.js.map",
+    "index.html": "/HW19-employee-directory/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/HW19-employee-directory/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.a3b97f16.chunk.js.LICENSE.txt": "/HW19-employee-directory/static/js/2.a3b97f16.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a42d562.js",
+    "static/js/runtime-main.b7e5a4b6.js",
     "static/js/2.a3b97f16.chunk.js",
     "static/css/main.afd7172b.chunk.css",
     "static/js/main.fb4a1f89.chunk.js"
